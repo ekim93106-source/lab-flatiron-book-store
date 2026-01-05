@@ -57,7 +57,7 @@ bookStore.books.forEach((book) => {
   // Set content
   bookTitle.textContent = book.title;
   bookAuthor.textContent = book.author;
-  bookImage.src = book.image;
+  bookImage.src = book.imageUrl;
 
   // Append elements
   bookContainer.append(bookTitle, bookAuthor, bookImage);
